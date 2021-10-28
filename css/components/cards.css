@@ -1,0 +1,51 @@
+.card {
+  display: inline-block;
+  padding: 0px 20px;
+   width: 600px;
+  height:400px;
+  margin-right:-5px;
+}
+.intrests-title{
+  background-color: rbga(127,127,127,0.5);
+}
+.card > h2 {
+  background-color: rbga(128,128,128,0.5) ;
+}
+#traveling{
+  background-image: url("../../profile/images/carpic.jpg") ;
+
+  background-size: cover;
+  margin-top: 50px;
+}
+#sports{
+  background-image: url("../../profile/images/cricketpic.jpg") ;
+  background-size: cover;
+}
+
+#hiking{
+  background-image: url("../../profile/images/hiking.jpg") ;
+  background-size: cover;
+}
+
+#art{
+  background-image: url("../../profile/images/artpic.jpg") ;
+  background-size: cover;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 400px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 200px;
+  }
+}

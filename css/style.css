@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;1,800&family=Urbanist:wght@200;400;900&display=swap');
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/cards.css");
+@import url("components/socials-list.css");
+
+h1, h2 {
+  color:rgb(26, 26, 30)
+  font-size: 32px;
+  font-family: 'Fira Sans', sans-serif;
+  align-items: center;
+}
+
+p{
+  font-family: 'Urbanist', sans-serif;
+  color: rgb(58, 58, 226);
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: rgb(153, 203, 215);
+}
+.container {
+  align-items: center;
+  text-align: center;
+  background-color: rgb(153, 203, 215);
+
+}
